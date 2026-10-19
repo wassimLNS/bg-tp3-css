@@ -1,0 +1,62 @@
+/* =========================================
+   Etape 1 : Layout 1
+   ========================================= */
+
+/* 1. Annuler les marges externes et internes de tous les elements */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* 2. Le conteneur id="container" */
+.container {
+	background-color: red;
+	width: 90%;
+	margin: 0 auto;
+	border: 1px solid #000;
+	max-width: 1100px;
+}
+
+/* 3. Le pied de page */
+footer {
+	background-color: red;
+	width: 100%;
+	height: 100px;
+	border: 1px solid #000;
+}
+
+/* =========================================
+   Etape 2 : Layout 2
+   ========================================= */
+
+/* 1. La barre de navigation et le showcase */
+.main-nav,
+.showcase {
+	background-color: #CCCCCC;
+	width: 100%;
+	height: 60px;
+	border: 1px solid #000;
+}
+
+/* 2. La hauteur du conteneur s'adapte au contenu */
+.container {
+	height: auto;
+}
+
+/* =========================================
+   Etape 3 : Layout 3
+   ========================================= */
+
+/* Les nouvelles sections de la page */
+.home-cards,
+.ruban,
+.follow,
+.links,
+.sub-footer,
+#bigData-intro {
+	background-color: #d3eaac;
+	width: 100%;
+	height: 100px;
+	border: 1px solid #000;
+}

@@ -1,0 +1,75 @@
+/* =========================================
+   Etape 1 : Layout 1
+   ========================================= */
+
+/* Annuler les marges externes et internes de tous les elements */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Le conteneur id="container" */
+.container {
+	width: 90%;
+	margin: 0 auto;
+	max-width: 1100px;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	color: #262626;
+	text-decoration: none;
+}
+
+/* =========================================
+   Etape 4 : Nav
+   ========================================= */
+
+/* Corps de la page */
+body {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	background: #fff;
+	color: #000;
+	font-size: 15px;
+	line-height: 1.5;
+}
+
+/* Barre de navigation principale */
+.main-nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 60px;
+	padding: 20px 0;
+	font-size: 13px;
+	background: #fff;
+}
+
+.main-nav .logo {
+	width: 110px;
+}
+
+.main-nav ul {
+	display: flex;
+}
+
+.main-nav ul li {
+	padding: 0 10px;
+}
+
+.main-menu {
+	flex: 1;
+	margin-left: 20px;
+}
+
+.main-nav ul li a {
+	border-bottom: 2px solid transparent;
+}
+
+.main-nav ul li a:hover {
+	border-bottom: 2px solid #000;
+}
